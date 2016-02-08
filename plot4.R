@@ -25,6 +25,6 @@ legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"
 with(power, plot(datetime, Voltage, type="l"))
 
 # plot 4
-with(power, plot(datetime, Global_reactive_power, type="l", xlab="datetime", ylab="Global_machine_power"))
+with(power, plot(datetime, Global_reactive_power, type="l"))
 
 dev.off()
